@@ -3,21 +3,21 @@
   # Requerimientos
   
     ##Objetos (posibles, se sometera a cambios) 
-      1.jugador
-      2.equipo 
-      3.partidos
+      1.jugador ->nombre, dni, fecha de nacimiento, posicion y estado (activo, suspendido, lesionado).
+      2.equipo ->nombre, categoria, color camiseta y sede habitual.
+      3.partidos -> fecha, hora, cancha.
       4.resultados
-      5.inscripciones
+      5.inscripciones ->Habilitación o rechazo de inscripciones con control de documentación, edad mínima y suspensiones                           vigentes.
       6.arbitros
       7.tareas
       8.organizadores
       9.publico
-      10.capitanes 
+      10.capitanes -> equipo responsable.
       11.torneo-nivel barrial o municipal
       12.Posiciones
       13.Sanciones
       
-    ##Funciones/acciones minimas (no se pueden alterar estos)
+    ##Funciones/acciones minimas (no se pueden alterar estos) (se analizo hasta el segundo requerimiento)
     
       1. Gestión de Equipos y Jugadores (Desktop — Organizador)
         • Registro y edición de equipos: nombre, categoría, color de camiseta, sede habitual y capitán
