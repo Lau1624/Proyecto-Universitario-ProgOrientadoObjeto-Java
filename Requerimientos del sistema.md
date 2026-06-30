@@ -2,7 +2,7 @@
   
   # Requerimientos
   
-    ##Objetos
+    ##Objetos (posibles, se sometera a cambios) 
       1.jugador
       2.equipo 
       3.partidos
@@ -14,8 +14,10 @@
       9.publico
       10.capitanes 
       11.torneo-nivel barrial o municipal
+      12.Posiciones
+      13.Sanciones
       
-    ##Funciones/acciones
+    ##Funciones/acciones minimas (no se pueden alterar estos)
     
       1. Gestión de Equipos y Jugadores (Desktop — Organizador)
         • Registro y edición de equipos: nombre, categoría, color de camiseta, sede habitual y capitán
@@ -44,4 +46,37 @@
           favor y en contra.
         • Estadísticas individuales por jugador: goles, asistencias, tarjetas amarillas y rojas, partidos
         jugados
+        
+      5. Sanciones y Reclamos (Desktop — Organizador / Web — Capitán)
+        • El organizador aplica sanciones desde el escritorio: suspensiones automáticas según
+          reglamento (acumulación de tarjetas), multas o inhabilitaciones manuales.
+        • Los capitanes pueden iniciar un reclamo formal desde la web dentro de un plazo
+          establecido, adjuntando fundamentos.
+        • El organizador responde y resuelve los reclamos desde el escritorio
+  
+      6. Roles y Permisos
+        • Público general: accede a fixture, resultados y estadísticas desde la web sin registro.
+        • Jugador / Capitán: accede a funcionalidades de inscripción, perfil y reclamos desde la web.
+        • Árbitro: carga resultados e incidencias desde la aplicación de escritorio.
+        • Organizador: gestiona toda la operativa del torneo desde el escritorio.
+        • Administrador: gestiona usuarios, torneos, canchas y configuración general desde el escritorio.
+
+      7. Reportes (Desktop — Organizador / Administrador)
+        • Tabla de posiciones exportable en PDF.
+        • Reporte de goleadores y jugadores más sancionados.
+        • Historial de torneos por equipo y jugador.
+        • Reporte de árbitros: partidos dirigidos e incidencias registradas.
+
+      Requisitos Funcionales Adicionales
+        • Notificaciones automáticas por correo electrónico a capitanes y árbitros ante cambios en el
+        fixture.
+        • Sistema de sanciones con cómputo automático de fechas de suspensión según reglamento.
+        • Módulo de reclamos: los capitanes pueden impugnar resultados o incidencias dentro de un
+        plazo.
+
+
+
+
+
       
+        
